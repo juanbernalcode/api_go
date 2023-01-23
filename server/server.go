@@ -7,7 +7,9 @@ type Country struct {
 	Languaje string
 }
 
-var countries []*Country = []*Country{}
+var countries []*Country = []*Country{
+	{Name: "USA", Languaje: "English"},
+}
 
 func New(addr string) *http.Server {
 

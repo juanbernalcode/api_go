@@ -27,7 +27,7 @@ func main() {
 	log.Println("Server Started")
 
 	<-serverDoneChan
-	log.Println("Server stopped-- one")
+	log.Println("Server stopped")
 	srv.Shutdown(ctx)
 
 }
